@@ -1,0 +1,6 @@
+[toolchain]
+channel = "nightly-2021-12-22"
+# rust-src is required for IDE tools like rust-analyzer
+components = [ "rust-src" ]
+targets = [ "x86_64-unknown-linux-gnu" ]
+profile = "default"

@@ -1,0 +1,19 @@
+[package]
+name = "dudect-rs"
+version = "0.1.0"
+authors = ["localthomas"]
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/localthomas/dudect-rs"
+readme = "README.md"
+description = "This is a direct translation of dudect (https://github.com/oreparaz/dudect) for learning purposes only."
+edition = "2021"
+
+[[bin]]
+name = "constant-simple"
+path = "src/constant_simple.rs"
+[[bin]]
+name = "not-constant-simple"
+path = "src/not_constant_simple.rs"
+
+[dependencies]
+rand = "0.8.4"

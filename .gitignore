@@ -1,0 +1,6 @@
+# ignore build outputs
+/target
+/result
+
+# ignore VSCode settings
+/.vscode
